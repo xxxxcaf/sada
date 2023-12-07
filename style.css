@@ -14,5 +14,15 @@ padding: 20px;
 
 .card_image {
     height: 120px;
+background-color: aqua;
+    margin: auto;
+}
 
+h1 {
+
+}
+
+.card_decription {
+    margin-top: 15px;
+    text-align: center;
 }
