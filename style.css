@@ -2,19 +2,23 @@
 .container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
     margin: 20px auto;
 }
 
 .card {
     width: 25%;
+    max-width: 300px;
     border: 1px solid black;
-padding: 20px;
+    padding: 20px;
 }
 
 .card_image {
     height: 120px;
-background-color: aqua;
+    width: 100%;
+    max-width: 180px;
+    background-color: aqua;
     margin: auto;
 }
 
@@ -25,4 +29,16 @@ text-align: center;
 .card_decription {
     margin-top: 15px;
     text-align: center;
+}
+@media screen and (max-width: 480px){
+    .card{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 768px;){
+    .card{
+width: 50%;
+        max-width: 100%;
+margin: auto auto 10px;
+    }
 }
