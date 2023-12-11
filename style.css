@@ -4,7 +4,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 .card {
@@ -41,4 +41,28 @@ width: 50%;
         max-width: 100%;
 margin: auto auto 10px;
     }
+}
+
+.link {
+    display: flex;
+
+
+
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: burlywood;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 25px;
+}
+
+div {
+
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
 }
