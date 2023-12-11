@@ -45,7 +45,10 @@ margin: auto auto 10px;
 
 .link {
     display: flex;
+    text-align: center;
 
+
+transition: all 0.5s ease 0s;
 
 
     text-decoration: none;
@@ -55,10 +58,12 @@ margin: auto auto 10px;
     color: white;
     padding: 2px 25px;
 }
-
-div {
-
+.link:hover {
+background-color: saddlebrown;
+color: snow;
+   text-decoration-line: line-through;
 }
+
 
 a {
     display: flex;
