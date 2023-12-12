@@ -5,13 +5,16 @@
     flex-wrap: wrap;
     width: 100%;
     margin: 30px auto;
+    padding-top: 100px;
 }
 
 .card {
+    height: 300px;
     width: 25%;
     max-width: 300px;
-    border: 1px solid black;
-    padding: 20px;
+    border: 2px solid black;
+    padding: 10px;
+margin: auto;
 }
 
 .card_image {
@@ -23,12 +26,17 @@
 }
 
 h1 {
-text-align: center;
+    position: relative;
+    top: 23px;
+justify-content: center;
+font-family: monospace;
     color: white;
      -webkit-text-stroke: 0.1px black;
 }
 
 .card_decription {
+font-size: 17px;
+font-family: sans-serif;
     margin-top: 15px;
     text-align: center;
     -webkit-text-stroke: 0.1px black;
@@ -48,18 +56,19 @@ margin: auto auto 10px;
 
 .link {
     display: flex;
-    text-align: center;
-
-
+     text-align: center;
+      color: black;
+     justify-content: center;
 transition: all 0.5s ease 0s;
 
 
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+
     background-color: white;
     border-radius: 10px;
+    padding: 3px 10px;
 
-    padding: 2px 25px;
 
 -webkit-text-stroke: 0.1px black;
 }
@@ -67,18 +76,17 @@ transition: all 0.5s ease 0s;
 background-color: black;
 color: snow;
    text-decoration-line: line-through;
+border-radius: -100px;
 }
 
 
 a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    display: inline-block;
+color: white;
+
 }
 
 body {
-background-image: url(img/orig.webp) ;
+background-image: url(img/orig.webp);
     background-size: cover;
 }
 
@@ -87,9 +95,81 @@ background-image: url(img/orig.webp) ;
 div {
     color: white;
 }
-{
-    margin: 0;
-    padding: 0;
+
+
+
+header {
+    display: flex;
+    margin: auto;
+justify-content: space-between;
+background: black;
+    padding: 8px;
+}
+
+link {
+
+}
+
+.title_page {
+
+display:flex;
+    padding: 1px;
+}
+
+#logo {
+    height: 120px;
+    width: 100%;
+    max-width: 180px;
+    margin:left;
+    transition: all 0.5s ease 0s;
+ border-radius: 10px;
+    background: white;
+}
+#logo:hover{
+background-color: mediumpurple;
+border-radius:20px;
+}
+
+.car_naz {
+font-family: monospace;
+font-size: 30px;
+ margin-top: 30px;
+margin-bottom: 20px;
+    text-align: center;
+    -webkit-text-stroke: 0.1px black;
+}
+
+nav {
+
+text-decoration-line: none;
+ position: relative;
+display:flex;
+margin: auto 1px;
+font-family: monospace;
+font-size: 30px;
 }
 
 
+.nav1 {
+font-family: monospace;
+    position: relative;
+right: 80px;
+
+}
+
+.nav2 {
+    font-family: monospace;
+     position: relative;
+right: 40px;
+
+}
+
+.nav3 {
+
+}
+
+
+
+footer {
+    background: black;
+}
