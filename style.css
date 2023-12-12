@@ -68,7 +68,7 @@ transition: all 0.5s ease 0s;
     background-color: white;
     border-radius: 10px;
     padding: 3px 10px;
-
+    margin-bottom:
 
 -webkit-text-stroke: 0.1px black;
 }
@@ -100,9 +100,11 @@ div {
 
 header {
     display: flex;
-    margin: auto;
+    margin: 0px auto;
 justify-content: space-between;
 background: black;
+background-size: cover;
+background-attachment: fixed;
     padding: 8px;
 }
 
