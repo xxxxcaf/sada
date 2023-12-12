@@ -9,12 +9,12 @@
 }
 
 .card {
-    height: 300px;
+    height: 330px;
     width: 25%;
     max-width: 300px;
     border: 2px solid black;
     padding: 10px;
-margin: auto;
+    margin: auto;
 }
 
 .card_image {
@@ -37,7 +37,7 @@ font-family: monospace;
 .card_decription {
 font-size: 17px;
 font-family: sans-serif;
-    margin-top: 15px;
+    margin-top:inherit;
     text-align: center;
     -webkit-text-stroke: 0.1px black;
 }
@@ -56,19 +56,17 @@ margin: auto auto 10px;
 
 .link {
     display: flex;
-     text-align: center;
-      color: black;
-     justify-content: center;
-transition: all 0.5s ease 0s;
-
-
+    color: black;
+    justify-content: center;
+    transition: all 0.5s ease 0s;
+    height: 20px;
+    max-height: 100px;
     text-decoration: none;
     font-size: 1.3rem;
-
+    margin: inherit;
     background-color: white;
     border-radius: 10px;
     padding: 3px 10px;
-    margin-bottom:
 
 -webkit-text-stroke: 0.1px black;
 }
