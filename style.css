@@ -72,7 +72,7 @@ margin: auto auto 10px;
     font-size: 1.3rem;
     background-color: white;
     border-radius: 10px;
-    padding: 2px 10px;
+    padding: 4px 10px;
     margin: 8px;
 
 
@@ -139,7 +139,7 @@ display:flex;
     background: white;
 }
 #logo:hover{
-background-color: mediumpurple;
+background-color: dimgrey;
 border-radius:20px;
 }
 
