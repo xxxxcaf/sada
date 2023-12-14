@@ -90,9 +90,13 @@ color: white;
 
 }
 
+
+
+
 body {
-background-image: url(img/orig.webp);
-    background-size: cover;
+background-image: url(img/5c2760c07a36d167f9d1eff5.jpg);
+    margin: auto;
+  background-size: cover;
 }
 
 
