@@ -181,7 +181,7 @@ font-size: 20px;
 font-family: monospace;
 max-width: inherit;
 }
-@media screen and (min-width:480px) and (max-width:500px){
+@media screen and (min-width:480px) and (max-width:580px){
     #logo{
         width: 110px;
 
