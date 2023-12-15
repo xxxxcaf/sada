@@ -12,8 +12,8 @@
     height: auto;
     width: 25%;
     max-width: 300px;
-    border: 2px solid white;
-    padding-bottom:1%;
+    border: 3px solid white;
+    padding-bottom:1px;
     margin: auto;
     background: black;
 }
@@ -39,8 +39,9 @@ font-family: monospace;
 }
 
 .card_decription {
-font-size: 17px;
+
 font-family: sans-serif;
+
  margin-bottom: 10px;
     text-align: center;
     -webkit-text-stroke: 0.1px black;
@@ -145,7 +146,7 @@ border-radius:20px;
 
 .car_naz {
 font-family: monospace;
-font-size: 30px;
+font-size: auto;
  margin-top: 30px;
 margin-bottom: 20px;
     text-align: center;
@@ -173,7 +174,16 @@ margin-bottom: 20px;
 
 
 footer {
+
     background: black;
+    background-size: auto;;
+    height: 70px;
+    width: 100%;
+    position: relative;
+
+
+
+    margin-top: 100px;
 }
 
 
@@ -189,9 +199,17 @@ max-width: inherit;
 
 }
 @media screen and (min-width:480px) and (max-width:480px){
+    .Number{
+
+
+
+    }
     #logo{
         width: 110px;
 
+    }
+    .card_decription {
+font-size: 10px;
     }
     h1{
 font-size:25px;
@@ -213,6 +231,19 @@ border-radius: 10px;
     }
 }
 @media screen and (max-width:320px){
+    .opis_h1{
+position: relative;
+        top: 90px;
+        margin: auto;
+        font-family: monospace;
+        font-size: 10px;
+    }
+    .opis {
+        top: 80px;
+        position: relative;
+        font-size:15px;
+    }
+
     #logo{
         width: 80px;
 
@@ -243,7 +274,7 @@ border-radius: 10px;
     text-align: center;
     font-family: monospace;
     padding-top: 25px;
-    font-size:30px;
+    font-size:20px;
     margin: auto;
     background:1px black;
 }
@@ -251,10 +282,32 @@ border-radius: 10px;
 .opis {
     text-align: center;
 font-family:monospace;
-font-size: 20px;
+font-size: px;
 background: 10px black;
 margin: auto;
 margin-top: 10px;
 
  -webkit-text-stroke: 0.1px black;
+}
+
+.Number {
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    top: 27px;
+    right: 110px;
+    background: black;
+padding:10px;
+    margin-bottom: 10px auto;
+
+}
+
+.info {
+color: white;
+font-family: sans-serif;
+
+position: relative;
+    padding: 5px;
+    left: 26px;
+    margin-bottom: 1px;
 }
