@@ -254,6 +254,7 @@ font-size:20px;
 
     }
     .header-right{
+border: 1px white;
 float: none;
 text-align: center;
 position: relative;
@@ -271,6 +272,7 @@ border-radius: 10px;
 
 
 .opis_h1 {
+
     text-align: center;
     font-family: monospace;
     padding-top: 25px;
@@ -280,7 +282,8 @@ border-radius: 10px;
 }
 
 .opis {
-    text-align: center;
+border: 3px white;
+text-align: center;
 font-family:monospace;
 font-size: px;
 background: 10px black;
@@ -299,6 +302,7 @@ margin-top: 10px;
     background: black;
 padding:10px;
     margin-bottom: 10px auto;
+margin-right: 10px;
 
 }
 
